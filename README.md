@@ -1,7 +1,8 @@
 sorbet-lsp
 ==========
 
-`sorbet-lsp` defines an ale linter that receives diagnostics on port 7777.
+`sorbet-lsp` defines an ale linter that runs an in-process Sorbet LSP server
+over "stdio".
 
 ```vim
 Plug 'zackhsi/sorbet-lsp'
