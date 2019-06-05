@@ -1,7 +1,8 @@
 call ale#linter#Define('ruby', {
 \   'name': 'sorbet-lsp',
-\   'lsp': 'socket',
-\   'address': 'localhost:7777',
+\   'lsp': 'stdio',
+\   'executable': 'pay exec true',
+\   'command': 'pay exec scripts/bin/typecheck --lsp -v',
 \   'language': 'ruby',
 \   'project_root': '/pay/src/pay-server',
 \})
