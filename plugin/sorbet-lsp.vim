@@ -4,5 +4,5 @@ call ale#linter#Define('ruby', {
 \   'executable': 'true',
 \   'command': 'pay exec scripts/bin/typecheck --lsp -v',
 \   'language': 'ruby',
-\   'project_root': '/pay/src/pay-server',
+\   'project_root': $HOME . '/stripe/pay-server',
 \})
